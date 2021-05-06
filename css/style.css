@@ -1,4 +1,169 @@
-body {
-  background-color: #ffffff;
-  color: #212121;
+/* основной цвет текста #212121 */
+/* вторчиный цыет текста #757575 */
+/* #FFFFFF */
+/* акцент #2196F3 */
+/* вторычний цыет фона #2F303A */
+/* вторичный цыет фона белый #E5E5E5 */
+/* Наша команда цвет фона #F5F4FA */
+/* шрифты */
+/* Raleway  700 */
+/* Roboto 500 900 700 400 */
+:root {
+  --main-color: #212121;
+  --accent: #2196f3;
+  --main-font:'Roboto', sans-serif;
+  --secondary-color: #757575;
 }
+body {
+  font-family: var(--main-font)
+  color: var(--main-color) 
+  }
+
+/* логотип  */
+a {
+  text-decoration: none;
+}
+.Logotype {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.Logotype:hover {
+ color: var(--accent)
+ text-decoration:underline;
+  }
+  
+.Logotype-one {
+  color:var(--accent)
+}
+.Logotype-two {
+  color: #000000;
+}
+/* Меню навигации */
+.navigation{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--secondary-color);
+}
+.navigation :hover,
+.navigation :focus
+{
+  color:var(--accent);
+  text-decoration: underline;
+}
+.navigation-contacts-mail-item{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--secondary-color);
+}
+.navigation-contacts-tel-item{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--secondary-color);
+}
+.navigation-contacts :hover,
+.navigation-contacts :focus
+{
+  color:var(--accent);
+  text-decoration: underline;
+}
+/* Меню навигации end*/
+/* HERO */
+.hero-title{
+font-family:var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.about-btn{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+cursor: pointer;
+background: var(--accent);
+color: #FFFFFF;
+}
+.about-btn:hover,
+.about-btn:focus{
+background: var(--accent);
+color: #FFFFFF;
+}
+/* HERO  end */
+
+/* feature */
+.feature-item-title{
+font-family:var(--main-font);
+font-weight:700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-color);
+}
+.feature-item-text{
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* feature  end*/
+/* component */
+.work-title{
+font-family:var(--main-font) ;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+/* component end */
+/* WORK */
+.team-title{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+.team-about{
+font-family:var(--main-font);
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* WORK  end */
+
+/* footer   */
+.adddress{
+font-family:var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-item-mail,
+.footer-item-tel{
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/* footer end   */
