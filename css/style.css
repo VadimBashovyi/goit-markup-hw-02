@@ -17,7 +17,7 @@
 body {
   font-family: var(--main-font)
   color: var(--main-color) 
-  }
+}
 
 /* логотип  */
 a {
@@ -33,7 +33,7 @@ a {
 .Logotype:hover {
  color: var(--accent)
  text-decoration:underline;
-  }
+}
   
 .Logotype-one {
   color:var(--accent)
@@ -90,8 +90,6 @@ text-transform: uppercase;
 }
 .about-btn{
 font-family:var(--main-font);
-font-style: normal;
-font-weight: bold;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
@@ -157,7 +155,7 @@ color: var(--secondary-color);
 font-family:var(--main-font);
 font-size: 14px;
 line-height: 1.71;
-    letter-spacing: 0.03em;
+letter-spacing: 0.03em;
 }
 .footer-item-mail,
 .footer-item-tel{
@@ -167,3 +165,46 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 /* footer end   */
+
+
+
+/*-------------------------------- PORTFOLIO  -------------------------------- */
+
+/* navigation-portfolio   */
+
+.button-text:hover,
+.button-text:focus {
+color: #FFFFFF;
+background:var(--accent);
+cursor: pointer;
+
+}
+.button-text{
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color:var(--main-color)
+background: #F5F4FA;
+}
+.navigations-btn-item{
+font-family:var(--main-font);
+}
+/* navigation-portfolio   END */
+
+/*  --------------content-portfolio   ---------------*/
+
+.content-portfolio-link{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--main-color);
+}
+.content-portfolio-text{
+font-family: var(--main-font);
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
